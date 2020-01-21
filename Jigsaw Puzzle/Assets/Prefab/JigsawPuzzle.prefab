@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4857776618579986763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4857776618579986765}
+  - component: {fileID: 4857776618579986764}
+  m_Layer: 0
+  m_Name: JigsawPuzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4857776618579986765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4857776618579986763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4857776618579986764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4857776618579986763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b907144e247fd8e41a5b39f49b6bab0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefab: {fileID: -4597200391318658327, guid: 86b76a96db36092449a006982b115235,
+    type: 3}
+  tileSprites:
+  - spriteRow:
+    - {fileID: 540803829919948875, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: -6597746790429190138, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: -607332128543417956, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: 7085326713702782872, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: 5877450452412718023, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: -4079171043063057818, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: 7596353924581696356, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: -3869402179791247577, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+    - {fileID: -4474874429364244199, guid: 7512de69170f21d418d3f8a8bcbdcb65, type: 3}
+  - spriteRow:
+    - {fileID: 4606908045521496030, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: -4195582761621981391, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 516283494600122218, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 7630354458230478893, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 615023859997206797, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: -3650377147373918042, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 2309896351881654512, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 4652032354098961874, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+    - {fileID: 5546958616740524299, guid: 13c6eed0d3baa29438678391a6c5cfa4, type: 3}
+  - spriteRow:
+    - {fileID: -8157489165700372841, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: -1725197401243032350, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: 662257920121606468, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: -3777872357667410574, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: -4496856222304640874, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: -1523168826132232840, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: 6069382360606709955, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: -8682655927598392029, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
+    - {fileID: 9035677952249831143, guid: a9d0efa0e92f44dff8b9cd9c1643ffc3, type: 3}
