@@ -78,6 +78,7 @@ The objective of this game is for the player to match three sets of game pieces 
         }
 ```
 </p>
+</details>
 2) **Checking for input:** Checked if the user touched a tile and measures the amount of the force from the user's swipe to determine whether a tile should move or not in the direction of the user's swipe. 
 ```
     /// <summary>
