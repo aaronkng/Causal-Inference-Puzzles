@@ -1,5 +1,8 @@
 <details><summary><b>Click me to see codebase</b></summary>
 <p>
+    
+
+    
 </p>
 </details>
 
@@ -154,6 +157,9 @@ The objective of this game is for the player to match three sets of game pieces 
 </details>
 
 3) **LERPing animation for tile movement:** LERPed the movement of the tile when it goes from one position into another to allow for some visual juiciness in gameplay. 
+<details><summary><b>Click me to see codebase</b></summary>
+<p>
+    
 ```
     /// <summary>
     /// Moves the tile if the user has flicked hard enough.
@@ -222,7 +228,14 @@ The objective of this game is for the player to match three sets of game pieces 
         _freePosition = startingPosition;
     }
 ```
+    
+</p>
+</details>
+
 4) **Checking for victory condition (row-side and column-side):** Had to check if the player managed to win by getting all the pieces aligned column-wise or row-wise. 
+<details><summary><b>Click me to see codebase</b></summary>
+<p>
+    
 ```
     /// <summary>
     /// Checks if player won via columns.
@@ -374,5 +387,9 @@ The objective of this game is for the player to match three sets of game pieces 
         return brainColWin && heartColWin && moxyColWin && oColWin && xColWin;
     }
 ```
+    
+</p>
+</details>
+
 **Demo:**  
 ![sliding_tile_demo](https://user-images.githubusercontent.com/34965351/73234736-4a63fa80-4140-11ea-88f2-cef0018d3c10.gif)
