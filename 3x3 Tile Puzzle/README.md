@@ -1,7 +1,7 @@
 # Sliding Puzzle
 The objective of this game is for the player to match three sets of game pieces so that they align either along the rows or the columns. The construction of this game was broken down into this list of tasks: 
 1) **Randomizing initial game state:** Had to make sure the game was inititalized so that tiles are randomly placed throughout the grid. 
-<details><summary>Click me to see codebase</summary>
+<details><summary><b>Click me to see codebase</b></summary>
 <p>
     
 ```
