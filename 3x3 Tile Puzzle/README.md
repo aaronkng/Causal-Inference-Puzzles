@@ -1,6 +1,8 @@
 # Sliding Puzzle
 The objective of this game is for the player to match three sets of game pieces so that they align either along the rows or the columns. The construction of this game was broken down into this list of tasks: 
 1) **Randomizing initial game state:** Had to make sure the game was inititalized so that tiles are randomly placed throughout the grid. 
+<details><summary>Click me to see codebase</summary>
+<p>
 ```
     /// <summary>
     /// Randomize the tiles;
@@ -75,6 +77,7 @@ The objective of this game is for the player to match three sets of game pieces 
             }
         }
 ```
+</p>
 2) **Checking for input:** Checked if the user touched a tile and measures the amount of the force from the user's swipe to determine whether a tile should move or not in the direction of the user's swipe. 
 ```
     /// <summary>
