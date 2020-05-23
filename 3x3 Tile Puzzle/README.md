@@ -1,5 +1,5 @@
 # Sliding Puzzle
-The objective of this game is for the player to match three sets of game pieces so that they align either along the rows or the columns. The construction of this game was broken down into this list of tasks: 
+The goal of this project was to create three mini-games that could be easily integrated into a larger game meant to teach players the concepts of causal inference. 
 1) **Randomizing initial game state:** Had to make sure the game was inititalized so that tiles are randomly placed throughout the grid. 
 <details><summary><b>Click me to see codebase</b></summary>
 <p>
@@ -385,3 +385,8 @@ The objective of this game is for the player to match three sets of game pieces 
 
 **Demo:**  
 ![sliding_tile_demo](https://user-images.githubusercontent.com/34965351/73234736-4a63fa80-4140-11ea-88f2-cef0018d3c10.gif)
+
+# Post-Mortem
+- Broke the development process down into simple chunks and would rigoroulsy test the functionality of one function before moving onto the next one. 
+- Trying to understand what the most intuitive user controls would be for the player and testing it out myself to ensure user friendliness. 
+- Organized the code in such a way that the lead developer would understand the pipeline and would be able to easily integrate the mini-games into the larger game
