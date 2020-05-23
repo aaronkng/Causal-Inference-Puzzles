@@ -1,5 +1,4 @@
 # Sliding Puzzle
-The goal of this project was to create three mini-games that could be easily integrated into a larger game meant to teach players the concepts of causal inference. 
 1) **Randomizing initial game state:** Had to make sure the game was inititalized so that tiles are randomly placed throughout the grid. 
 <details><summary><b>Click me to see codebase</b></summary>
 <p>
