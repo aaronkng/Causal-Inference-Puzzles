@@ -384,8 +384,3 @@
 
 **Demo:**  
 ![sliding_tile_demo](https://user-images.githubusercontent.com/34965351/73234736-4a63fa80-4140-11ea-88f2-cef0018d3c10.gif)
-
-# Post-Mortem
-- Broke the development process down into simple chunks and would rigoroulsy test the functionality of one function before moving onto the next one. 
-- Trying to understand what the most intuitive user controls would be for the player and testing it out myself to ensure user friendliness. 
-- Organized the code in such a way that the lead developer would understand the pipeline and would be able to easily integrate the mini-games into the larger game
