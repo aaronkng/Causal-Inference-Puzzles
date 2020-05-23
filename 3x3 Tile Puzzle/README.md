@@ -1,4 +1,6 @@
 # Sliding Puzzle
+The objective of this came is to slide puzzle pieces into place so that they match row-wise or column-wise. 
+
 1) **Randomizing initial game state:** Had to make sure the game was inititalized so that tiles are randomly placed throughout the grid. 
 <details><summary><b>Click me to see codebase</b></summary>
 <p>
